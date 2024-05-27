@@ -1,7 +1,7 @@
-export const BASE_URL = 'http://localhost:4000'
+export const BASE_URL = 'https://kotovloh-backend.nomoredomainswork.ru'
 
 export const endpoints = {
   games: `${BASE_URL}/games`,
-  auth: `${BASE_URL}/api/auth/login`,
-  me: `${BASE_URL}/api/me`,
+  auth: `${BASE_URL}/auth/local`,
+  me: `${BASE_URL}/users/me`,
 }
